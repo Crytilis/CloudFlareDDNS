@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>dotnet-ZoneUpdater-315ec4b4-3b0a-406a-a9f5-f68766df053e</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Certes" Version="3.0.4" />
+    <PackageReference Include="DnsClient" Version="1.7.0" />
+    <PackageReference Include="Microsoft.AspNetCore.DataProtection" Version="8.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="8.0.0" />
+    <PackageReference Include="RestSharp" Version="110.2.0" />
+    <PackageReference Include="RestSharp.Serializers.NewtonsoftJson" Version="110.2.0" />
+  </ItemGroup>
+</Project>
